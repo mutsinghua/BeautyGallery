@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- 广告 -->
+    <LinearLayout
+        android:id="@+id/miniAdLinearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" />
+
+    <ListView
+        android:id="@+id/listView_imagedb"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:cacheColorHint="@null"
+        android:fastScrollEnabled="true"
+        android:scrollbarThumbVertical="@drawable/scroller_pressed_new" >
+    </ListView>
+
+    <com.tencent.mobwin.AdView
+        xmlns:mobwin="http://mobwin.android.com/apk/res/org.androidbook.gallery.beauty"
+        android:id="@+id/mobwinview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        mobwin:backAlpha="165" >
+    </com.tencent.mobwin.AdView>
+
+</LinearLayout>

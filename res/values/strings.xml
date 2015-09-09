@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="about_this">APP_NAME\n版本:VERSION_NAME\n開發者:androidbook.org\n官方網站:http://www.androidbook.org/gallery\n聯繫作者:androidbookorg@gmail.com\n\n申明：本軟體所用素材均來自互聯網，如果您覺得侵犯了您的權益，請立即告知，我們將在第一時間內刪除。</string>
+    <string name="app_name">美圖如雲</string>
+    <string name="download">下載</string>
+    <string name="open">打開</string>
+    <string name="downloading">下載中</string>
+    <string name="download_cancel">取消下載</string>
+    <string name="delete">刪除</string>
+    <string name="download_finish">下載完成</string>
+    <string name="file_corrupt">圖片集已損壞，請刪除後重新下載</string>
+    <string name="load_thumb">載入圖片中...</string>
+    <string name="wait_downloading">請稍候，正在下載</string>
+    <string name="pics_not_download_yet">圖片集還沒有下載，是否要立即下載？</string>
+    <string name="ok">確定</string>
+    <string name="cancel">取消</string>
+    <string name="download_failed">下載失敗，請重新下載</string>
+    <string name="download_canceled">下載已取消</string>
+    <string name="find_no_pic_id">找不到圖片ID</string>
+    <string name="crop_save_text">完成</string>
+    <string name="crop_discard_text">放棄</string>
+    <string name="running_face_detection" msgid="4094707964259463039">"請稍候..."</string>
+    <string name="saving_image" msgid="7270334453636349407">"正在保存..."</string>
+    <string name="share">分享</string>
+    <string name="set_wallpaper">壁紙</string>
+    <string name="crop">裁剪</string>
+    <string name="set_wall_paper_success">壁紙設置成功</string>
+    <string name="set_wall_paper_failed">壁紙設置失敗</string>
+    <string name="save">保存</string>
+    <string name="pic_saved_in_where">圖片成功保存在\n</string>
+    <string name="pic_save_failed">保存失敗\n</string>
+    <string name="net_not_available">網路無法連通，請檢查網路連接</string>
+    <string name="choose_operator">請選擇</string>
+    <string name="sure_to_delete">您確定要刪除圖片庫</string>
+    <string name="recommendation">推薦</string>
+    <string name="recommendation_text">推薦一個很好玩的應用</string>
+    <string name="help">幫助</string>
+    <string name="about">關於</string>
+    <string name="download_url">下載地址:</string>
+    <string name="net_error">網路錯誤</string>
+    <string name="net_error_retry">網路錯誤,請嘗試退出後，再重試</string>
+    <string name="autoplay">自動播放</string>
+    <string name="stopplay">停止播放</string>
+    <string name="favorite">收藏</string>
+    <string name="auto_times">切換時間 &lt;快 -- 慢></string>
+    <string name="my_fav">我的收藏</string>
+    <string name="already_fav">已經在我的最愛中,不用再次收藏</string>
+    <string name="cannot_fav">示例圖片暫時無法收藏</string>
+    <string name="fav_success">收藏成功</string>
+    <string name="fav_delete_sure">確定要從我的最愛中刪除嗎？</string>
+    <string name="fav_delete_success">刪除成功</string>
+    <string name="no_fav">暫無收藏圖片</string>
+    <string name="download_cancel_sure">確定要取消下載嗎？</string>
+    <string name="spendpoint">您消費了POINT點積分,您還剩餘TOTAL_POINT點積分,您總共消費MOUNT_POINT點積分</string>
+    <string name="not_enought_point">積分不夠了::>_&lt;::</string>
+    <string name="not_enought_point_text">您的積分餘額不足,當前帳戶積分餘額為POINT點,您可以免費獲取更多積分</string>
+    <string name="earn_point">免費賺積分</string>
+    <string name="photo_db_point">打開此圖片庫需要POINT點積分，您當前還有TOTAL_POINT點積分</string>
+    <string name="out_of_memery">-_-。sorry！記憶體不足了，圖片無法顯示</string>
+    <string name="have_downloading_task">您有任務正在下載，您確定要強行退出？退出後所有任務將被取消。</string>
+    <string name="force_quit">強行退出</string>
+    <string name="quit_desktop">返回桌面</string>
+    <string name="only_one">圖片集只有一張</string>
+    <string name="donwload_all">全部下載</string>
+    <string name="help_text">[font color=0xf7d654]\t感謝您使用[/font][font color=0xffffff]美圖如雲[/font][font color=0xf7d654]，願我們的產品能給您帶來一道華麗的視覺盛宴，讓美麗詮釋您的生活。[/font]\n\n\n\t如果在使用中您有任何疑問和建議，強烈建議您與我們聯繫，説明我們改善產品的同時，也能讓您在使用我們的軟體得到更好的體驗~~\n\n\t如果你特別喜歡閱讀，還可以到我們的網站[a href=http://www.androidbook.org target=_blank]http://www.androidbook.org[/a]下載喜歡的電子書哦~~\n\n\t再次感謝您的支持，祝您新年快樂，闔家幸福！</string>
+    <string name="please_wait">請稍候，圖片還在載入中</string>
+    <string name="fliter">過濾</string>
+    <string name="clear_history">清除歷史</string>
+    <string name="unread">未下載</string>
+    <string name="already_read">已下載</string>
+    <string name="all_read">全部</string>
+
+</resources>

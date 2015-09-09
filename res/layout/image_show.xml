@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/frame_bg"
+    android:orientation="vertical" >
+
+    <org.androidbook.gallery.beauty.ui.view.ImageLookerSlideGallery
+        android:id="@+id/imagegallery"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scaleType="matrix" />
+
+    
+
+
+
+    <LinearLayout
+        android:id="@+id/menuLayer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <!-- 菜单层 -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/button_layer"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:weightSum="3" >
+
+                <Button
+                    android:id="@+id/menu_share"
+                    style="@style/normal_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/icon_share"
+                    android:text="@string/share" >
+                </Button>
+
+                <Button
+                    android:id="@+id/menu_fav"
+                    style="@style/normal_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/icon_home_small"
+                    android:text="@string/favorite" />
+
+                <Button
+                    android:id="@+id/menu_crop"
+                    style="@style/normal_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_menu_crop"
+                    android:text="@string/crop" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/menu_toleft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/left_bg" />
+
+            <ImageButton
+                android:id="@+id/menu_toright"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/right_bg" />
+
+            <!-- 顶部的操作区域 -->
+
+
+            <!-- 左转 -->
+
+            <ImageButton
+                android:id="@+id/img_turnLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_weight="1"
+                android:background="@null"
+                android:src="@drawable/img_turnleft_btn" >
+            </ImageButton>
+
+            <!-- 右转 -->
+
+            <ImageButton
+                android:id="@+id/img_turnRight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_weight="1"
+                android:background="@null"
+                android:src="@drawable/img_turnright_btn" >
+            </ImageButton>
+        </RelativeLayout>
+
+        <com.admogo.AdMogoLayout
+            android:id="@+id/admogo_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" />
+    </LinearLayout>
+
+</RelativeLayout>

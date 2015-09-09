@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="about_this">APP_NAME\n版本:VERSION_NAME\n开发者:androidbook.org\n官方网站:http://www.androidbook.org/gallery\n联系作者:androidbookorg@gmail.com\n\n申明：本软件所用素材均来自互联网，如果您觉得侵犯了您的权益，请立即告知，我们将在第一时间内删除。</string>
+    <string name="app_name">美图如云</string>
+    <string name="download">下载</string>
+    <string name="open">打开</string>
+    <string name="downloading">下载中</string>
+    <string name="download_cancel">取消下载</string>
+    <string name="delete">删除</string>
+    <string name="download_finish">下载完成</string>
+    <string name="file_corrupt">图片集已损坏，请删除后重新下载</string>
+    <string name="load_thumb">加载图片中...</string>
+    <string name="wait_downloading">请稍候，正在下载</string>
+    <string name="pics_not_download_yet">图片集还没有下载，是否要立即下载？</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="download_failed">下载失败，请重新下载</string>
+    <string name="download_canceled">下载已取消</string>
+    <string name="find_no_pic_id">找不到图片ID</string>
+    <string name="crop_save_text">完成</string>
+    <string name="crop_discard_text">放弃</string>
+    <string name="running_face_detection" msgid="4094707964259463039">"请稍候..."</string>
+    <string name="saving_image" msgid="7270334453636349407">"正在保存..."</string>
+    <string name="share">分享</string>
+    <string name="set_wallpaper">壁纸</string>
+    <string name="crop">裁剪</string>
+    <string name="set_wall_paper_success">壁纸设置成功</string>
+    <string name="set_wall_paper_failed">壁纸设置失败</string>
+    <string name="save">保存</string>
+    <string name="pic_saved_in_where">图片成功保存在\n</string>
+    <string name="pic_save_failed">保存失败\n</string>
+    <string name="net_not_available">网络无法连通，请检查网络连接</string>
+    <string name="choose_operator">请选择</string>
+    <string name="sure_to_delete">您确定要删除图片库</string>
+    <string name="recommendation">精品推荐</string>
+    <string name="recommendation_text">推荐一个很好玩的应用</string>
+    <string name="help">帮助</string>
+    <string name="about">关于</string>
+    <string name="download_url">下载地址:</string>
+    <string name="net_error">网络错误</string>
+    <string name="net_error_retry">网络错误,请尝试退出后，再重试</string>
+    <string name="autoplay">自动播放</string>
+    <string name="stopplay">停止播放</string>
+    <string name="favorite">收藏</string>
+    <string name="auto_times">切换时间 &lt;快 -- 慢></string>
+    <string name="my_fav">我的收藏</string>
+    <string name="already_fav">已经在收藏夹中,不用再次收藏</string>
+    <string name="cannot_fav">示例图片暂时无法收藏</string>
+    <string name="fav_success">收藏成功,您可以在首页中的收藏菜单查看</string>
+    <string name="fav_delete_sure">确定要从收藏夹中删除吗？</string>
+    <string name="fav_delete_success">删除成功</string>
+    <string name="no_fav">暂无收藏图片</string>
+    <string name="download_cancel_sure">确定要取消下载吗？</string>
+    <string name="spendpoint">您消费了POINT点积分,您还剩余TOTAL_POINT点积分,您总共消费MOUNT_POINT点积分</string>
+    <string name="not_enought_point">积分不够了::>_&lt;::</string>
+    <string name="not_enought_point_text">您的积分余额不足,当前账户积分余额为POINT点,您可以免费获取更多积分</string>
+    <string name="earn_point">免费赚积分</string>
+    <string name="photo_db_point">打开此图片库需要POINT点积分，您当前还有TOTAL_POINT点积分</string>
+    <string name="out_of_memery">-_-。sorry！内存不足了，图片无法显示</string>
+    <string name="have_downloading_task">您有任务正在下载，您确定要强行退出？退出后所有任务将被取消。</string>
+    <string name="force_quit">强行退出</string>
+    <string name="quit_desktop">返回桌面</string>
+    <string name="only_one">图片集只有一张</string>
+    <string name="donwload_all">全部下载</string>
+    <string name="help_text">[font color=0xf7d654]\t感谢您使用[/font][font color=0xffffff]美图如云[/font][font color=0xf7d654]，愿我们的产品能给您带来一道华丽的视觉盛宴，让美丽诠释您的生活。[/font]\n\n\n\t如果在使用中您有任何疑问和建议，强烈建议您与我们联系，帮助我们改善产品的同时，也能让您在使用我们的软件得到更好的体验~~\n\n\t如果你特别喜欢阅读，还可以到我们的网站[a href=http://www.androidbook.org target=_blank]http://www.androidbook.org[/a]下载喜欢的电子书哦~~\n\n\t[font color=0xf7d654]我们还为您提供了美女如云在线版，不用下载就可以直接欣赏美图哦！[/font][a href=http://www.win16.com/download.asp?id=122&amp;file_type=2 target=_blank]点此下载[/a]</string>
+    <string name="please_wait">请稍候，图片还在加载中</string>
+    <string name="fliter">过滤</string>
+    <string name="clear_history">清除历史</string>
+    <string name="unread">未下载</string>
+    <string name="already_read">已下载</string>
+    <string name="all_read">全部</string>
+
+</resources>

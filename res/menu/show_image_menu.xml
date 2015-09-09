@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/menu_autoplay" android:icon="@drawable/autoplay" android:checked="false" android:menuCategory="system" android:checkable="true" android:title="@string/autoplay"></item>
+    <item android:id="@+id/menu_setwall" android:icon="@drawable/setting" android:title="@string/set_wallpaper" android:menuCategory="system" />
+</menu>

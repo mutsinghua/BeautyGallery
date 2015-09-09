@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="250dp" android:layout_height="wrap_content"
+	android:orientation="vertical" android:gravity="center_horizontal">
+	<TextView android:text="@string/auto_times" android:id="@+id/set_font_size"
+		android:layout_width="200dp" android:layout_height="wrap_content"
+		android:textSize="14dp" android:gravity="left"
+		android:layout_marginBottom = "15dp"
+		></TextView>
+	<SeekBar android:id="@+id/font_sekkbar" android:layout_width="200dp"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom = "15dp"
+		></SeekBar>
+
+
+</LinearLayout>

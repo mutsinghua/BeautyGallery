@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_download_all"
+        android:menuCategory="container"
+        android:orderInCategory="1"
+        android:icon="@drawable/deselect"
+        android:title="@string/donwload_all">
+    </item>
+
+    <item
+        android:orderInCategory="2"
+        android:id="@+id/menu_my_fav"
+        android:menuCategory="container"
+        android:icon="@drawable/ilike"
+        android:title="@string/my_fav">
+    </item>
+
+</menu>

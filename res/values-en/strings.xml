@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="about_this">APP_NAME\nVersion:VERSION_NAME\nAuthor:androidbook.org\nWebsite:http://www.androidbook.org/gallery\nEmail:androidbookorg@gmail.com\n\n</string>
+    <string name="app_name">Plenty of Sexy Girls</string>
+    <string name="download">Download</string>
+    <string name="open">Open</string>
+    <string name="downloading">Downloading</string>
+    <string name="download_cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="download_finish">Download finished</string>
+    <string name="file_corrupt">The file is invalid, Please try to download it again</string>
+    <string name="load_thumb">loading...</string>
+    <string name="wait_downloading">Please wait, downloading</string>
+    <string name="pics_not_download_yet">want to download?</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="download_failed">Download failed, please try again.</string>
+    <string name="download_canceled">Downloading has been canceled</string>
+    <string name="find_no_pic_id">invalid picture ID</string>
+    <string name="crop_save_text">OK</string>
+    <string name="crop_discard_text">Cancel</string>
+    <string name="running_face_detection" msgid="4094707964259463039">"Please wait..."</string>
+    <string name="saving_image" msgid="7270334453636349407">"Saving..."</string>
+    <string name="share">Share</string>
+    <string name="set_wallpaper">Wallpaper</string>
+    <string name="crop">Crop</string>
+    <string name="set_wall_paper_success">Successful</string>
+    <string name="set_wall_paper_failed">Failed</string>
+    <string name="save">Save</string>
+    <string name="pic_saved_in_where">The picture was saved at\n</string>
+    <string name="pic_save_failed">Save failed\n</string>
+    <string name="net_not_available">Can not access Internet.</string>
+    <string name="choose_operator">Please choose</string>
+    <string name="sure_to_delete">Are you sure to delete gallery?</string>
+    <string name="recommendation">Share to friends</string>
+    <string name="recommendation_text">I would like to share a funny app </string>
+    <string name="help">Help</string>
+    <string name="about">About</string>
+    <string name="download_url">Download address:</string>
+    <string name="net_error">Network error!</string>
+    <string name="net_error_retry">Network error! Please try again.</string>
+    <string name="autoplay">AutoPlay</string>
+    <string name="stopplay">Stop</string>
+    <string name="favorite">Fav it</string>
+    <string name="auto_times">Transaction Speed\n &lt;Fast -- Slow></string>
+    <string name="my_fav">My Favorite</string>
+    <string name="already_fav">Already in favorite folder</string>
+    <string name="cannot_fav">Demo can not to be added to favorite.</string>
+    <string name="fav_success">Successful</string>
+    <string name="fav_delete_sure">Are you sure to delete this favorite</string>
+    <string name="fav_delete_success">Successful</string>
+    <string name="no_fav">no picture</string>
+    <string name="download_cancel_sure">cancel download?</string>
+    <string name="spendpoint">您消费了POINT点积分,您还剩余TOTAL_POINT点积分,您总共消费MOUNT_POINT点积分</string>
+    <string name="not_enought_point">积分不够了::>_&lt;::</string>
+    <string name="not_enought_point_text">您的积分余额不足,当前账户积分余额为POINT点,您可以免费获取更多积分</string>
+    <string name="earn_point">免费赚积分</string>
+    <string name="photo_db_point">打开此图片库需要POINT点积分，您当前还有TOTAL_POINT点积分</string>
+    <string name="out_of_memery">-_-。sorry！Out of Memery.</string>
+    <string name="have_downloading_task">You are downloading now. If you quit our app, the downloading will be canceled.</string>
+    <string name="force_quit">Force quit</string>
+    <string name="quit_desktop">Return to desktop</string>
+    <string name="only_one">Only one picture</string>
+    <string name="donwload_all">Download all</string>
+    <string name="help_text">[font color=0xf7d654]\tThanks for using [/font][font color=0xffffff]Plenty of Sexy Girls[/font][font color=0xf7d654],wish you have a wonderful experience in our app.[/font]\n\n\n\tIf you have any question or suggestions, please free to contact us.\n\n\n\tThank you again!</string>
+    <string name="please_wait">Please wait, loading...</string>
+    <string name="fliter">Filter</string>
+    <string name="clear_history">Clear history</string>
+    <string name="unread">Not downloaded</string>
+    <string name="already_read">Downloaded</string>
+    <string name="all_read">All</string>
+
+</resources>

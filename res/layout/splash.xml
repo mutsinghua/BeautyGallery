@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+    >
+   <org.androidbook.gallery.beauty.ui.view.SplashView
+        android:layout_width="fill_parent"
+        android:layout_height="20dp" >
+    </org.androidbook.gallery.beauty.ui.view.SplashView>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="#ffffffff"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/sp_image1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/splash_image1"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/sp_image2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/splash_image3"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/sp_image3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/splash_image2"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/sp_image4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/splash_image4"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/sp_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/big_title"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <org.androidbook.gallery.beauty.ui.view.SplashView
+        android:layout_width="fill_parent"
+        android:layout_height="20dp" >
+    </org.androidbook.gallery.beauty.ui.view.SplashView>
+
+</LinearLayout>

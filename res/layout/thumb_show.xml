@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="top|left"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+        <GridView
+            android:id="@+id/thumb_grid"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:numColumns="auto_fit"
+            android:columnWidth="101dp"
+            android:horizontalSpacing="1dp"
+            android:verticalSpacing="1dp"
+            android:scrollbarThumbVertical="@drawable/scroller_pressed_new" />
+
+        <TextView
+            android:id="@+id/need_points"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#99000000"
+            android:text=""
+            android:textColor="#99ffffff"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+    <com.admogo.AdMogoLayout
+        android:id="@+id/admogo_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+</LinearLayout>

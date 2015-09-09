@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.androidbook.gallery.beauty"
+    android:installLocation="preferExternal"
+    android:versionCode="10"
+    android:versionName="4.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name="org.androidbook.gallery.beauty.BeautyApplication"
+   
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <meta-data
+            android:name="APP_ID"
+            android:value="1C26ECEB7A7EB9B866D7B7CABE81DE53" />
+        <meta-data
+            android:name="APP_INTERVAL"
+            android:value="30" />
+        <meta-data
+            android:name="APP_TESTMODE"
+            android:value="false" />
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="4f485c3d5270157054000034" />
+
+        <activity
+            android:name="org.androidbook.gallery.beauty.ui.SplashActivity"
+            android:excludeFromRecents="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter android:label="@string/app_name" >
+                <action android:name="android.intent.action.SET_WALLPAPER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.androidbook.gallery.beauty.ui.ImageDBListActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.CustomNoTitleTheme" >
+        </activity>
+        <activity
+            android:name="org.androidbook.gallery.beauty.ui.ShowThumbActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:theme="@style/Theme.CustomNoTitleTheme" >
+        </activity>
+        <activity
+            android:name="org.androidbook.gallery.beauty.ui.ShowFavThumbActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:theme="@style/Theme.CustomNoTitleTheme" >
+        </activity>
+        <activity
+            android:name="org.androidbook.gallery.beauty.ui.PhotoShowActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:theme="@style/Theme.CustomNoTitleThemeFullScreen" >
+        </activity>
+        <activity
+            android:name="org.androidbook.gallery.beauty.ui.ImageLookerActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:theme="@style/Theme.CustomNoTitleThemeFullScreen" >
+        </activity>
+        <activity
+            android:name="org.androidbook.gallery.beauty.ui.CropImageActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:theme="@style/Theme.CustomNoTitleThemeFullScreen" >
+        </activity>
+        <activity
+            android:name="org.androidbook.gallery.beauty.ui.HelpActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:theme="@style/Theme.CustomNoTitleTheme" >
+        </activity>
+
+        <service
+            android:name="org.androidbook.gallery.beauty.BeautyService"
+            android:exported="true" >
+        </service>
+
+        <!-- 声明AdMob的Activity -->
+        <activity
+            android:name="com.google.ads.AdActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden" />
+
+        <!-- mobwin -->
+        <activity android:name="com.tencent.mobwin.MobinWINBrowserActivity" >
+        </activity>
+<service
+    android:name="com.umeng.common.net.DownloadingService"
+    android:exported="true"
+    android:process=":DownloadingService" >
+</service>
+        <meta-data
+            android:name="ADMOGO_KEY"
+            android:value="94591441ebb949348a4bcc9ccdf010af" />
+    </application>
+
+</manifest>
